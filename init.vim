@@ -12,6 +12,7 @@ set virtualedit=onemore
 set smartindent
 set visualbell
 set statusline=2
+set showtabline=2
 set wildmode=list:longest
 nnoremap j gj
 nnoremap k gk
@@ -64,5 +65,7 @@ endif
 
 " vim-airline
 let g:airline_theme='papercolor'
+let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#enabled = 1
-
+let g:airline#extensions#tabline#buffer_idx_mode = 1
+set t_Co=256
