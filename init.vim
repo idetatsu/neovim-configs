@@ -37,6 +37,9 @@ set wrapscan
 set hlsearch
 nmap <Esc><Esc> :nohlsearch<CR><Esc>
 
+set background=dark
+set t_Co=256
+set termguicolors
 
 " dein
 let s:dein_dir = expand('~/.cache/dein')
@@ -68,4 +71,6 @@ let g:airline_theme='papercolor'
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#buffer_idx_mode = 1
-set t_Co=256
+
+" Colorscheme
+colorscheme lucius
