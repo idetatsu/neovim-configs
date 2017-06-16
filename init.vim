@@ -74,3 +74,6 @@ let g:airline#extensions#tabline#buffer_idx_mode = 1
 
 " Colorscheme
 colorscheme lucius
+
+" NERDTree
+nnoremap <silent><C-e> :NERDTreeToggle<CR>
