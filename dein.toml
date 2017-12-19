@@ -53,5 +53,5 @@ repo = 'cespare/vim-toml'
 [[plugins]]
 repo = 'othree/yajs.vim'
 
-[[plugins]]
-repo = 'scrooloose/nerdtree'
+#[[plugins]]
+#repo = 'scrooloose/nerdtree'
