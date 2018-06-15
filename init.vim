@@ -76,10 +76,14 @@ let g:airline#extensions#tabline#buffer_idx_mode = 1
 colorscheme lucius
 
 " NERDTree
-" nnoremap <silent><C-e> :NERDTreeToggle<CR>
+nnoremap <silent><C-e> :NERDTreeToggle<CR>
 
 " netrw
-let g:netrw_liststyle=3
-let g:netrw_banner=0
-let g:netrw_browse_split=2
-let g:netrw_winsize=15
+"let g:netrw_liststyle=3
+"let g:netrw_banner=0
+"let g:netrw_browse_split=2
+"let g:netrw_winsize=15
+"augroup ProjectDrawer
+"  autocmd!
+"  autocmd VimEnter * :Vexplore
+"augroup END
