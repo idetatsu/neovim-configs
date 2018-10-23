@@ -67,16 +67,17 @@ if dein#check_install()
 endif
 
 " vim-airline
-let g:airline_theme='papercolor'
+let g:airline_theme='molokai'
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#buffer_idx_mode = 1
 
 " Colorscheme
-colorscheme lucius
+colorscheme molokai
 
 " NERDTree
 nnoremap <silent><C-e> :NERDTreeToggle<CR>
+let g:NERDTreeShowHidden = 1
 
 " netrw
 "let g:netrw_liststyle=3
