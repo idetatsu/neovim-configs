@@ -9,10 +9,8 @@ set showcmd
 set number
 set cursorline
 set virtualedit=onemore
-set smartindent
 set visualbell
 set statusline=2
-set showtabline=2
 set wildmode=list:longest
 nnoremap j gj
 nnoremap k gk
@@ -22,6 +20,17 @@ set expandtab
 set tabstop=2
 set softtabstop=2
 set shiftwidth=2
+set showtabline=2
+set smartindent
+set autoindent
+
+if has("autocmd")
+  filetype plugin on
+  filetype indent on
+  autocmd FileType c           setlocal sw=4 sts=4 ts=4 et
+  autocmd FileType cpp         setlocal sw=4 sts=4 ts=4 et
+  autocmd FileType scala       setlocal sw=4 sts=4 ts=4 et
+endif
 
 set backspace=indent,eol,start
 set whichwrap=b,s,h,l,<,>,[,]
