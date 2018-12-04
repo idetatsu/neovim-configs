@@ -58,3 +58,8 @@ repo = 'scrooloose/nerdtree'
 
 [[plugins]]
 repo = 'posva/vim-vue'
+
+[[plugins]]
+repo = 'leafgarland/typescript-vim'
+
+
