@@ -17,10 +17,16 @@ repo = 'Yggdroot/indentLine'
 repo = 'gosukiwi/vim-atom-dark'
 
 [[plugins]]
+repo = 'arcticicestudio/nord-vim'
+
+[[plugins]]
 repo = 'tomasr/molokai'
 
 [[plugins]]
 repo = 'jonathanfilip/vim-lucius'
+
+[[plugins]]
+repo = 'drewtempelmeyer/palenight.vim'
 
 [[plugins]]
 repo = 'Shougo/vimproc.vim'
